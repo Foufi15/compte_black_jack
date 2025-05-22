@@ -36,7 +36,7 @@ while Repet:
     inf = ["As", "10", "J", "D", "R"]
 
     packet = {}
-    repertoire_carte = r"../projet"  # assurez-vous que ce chemin est correct
+    repertoire_carte = r"./carte"  # assurez-vous que ce chemin est correct
     fichiers_cartes = os.listdir(repertoire_carte)
 
     for valeur in valeurs:
